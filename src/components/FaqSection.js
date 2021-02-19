@@ -1,6 +1,8 @@
+import { Faq } from './styles/FaqSection.styles';
+
 const FaqSection = () => {
   return (
-    <div className="faq">
+    <Faq>
       <h2>
         Any Question <span>FAQ</span>
       </h2>
@@ -13,6 +15,7 @@ const FaqSection = () => {
             iste.
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -24,6 +27,7 @@ const FaqSection = () => {
             iste.
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -35,6 +39,7 @@ const FaqSection = () => {
             iste.
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
 
       <div className="question">
@@ -46,8 +51,9 @@ const FaqSection = () => {
             iste.
           </p>
         </div>
+        <div className="faq-line"></div>
       </div>
-    </div>
+    </Faq>
   );
 };
 
